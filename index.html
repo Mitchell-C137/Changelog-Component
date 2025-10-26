@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Changelog Component</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main class="page">
+			<section class="changelog" aria-label="Project changelog">
+				<header class="changelog-header">
+					<h1>Changelog</h1>
+					<p class="lead">A record of notable changes and releases.</p>
+				</header>
+
+				<div class="timeline" role="list">
+					<article class="entry" role="listitem">
+						<time datetime="2025-10-20" class="entry-time">Oct 20, 2025</time>
+						<h3 class="entry-title">v1.2.0 — Layout improvements</h3>
+						<p class="entry-summary">Added responsive timeline layout and improved card spacing.</p>
+						<ul class="entry-details">
+							<li>Responsive two-column timeline on wide screens</li>
+							<li>Stacked cards on small screens</li>
+							<li>Small visual polish and bug fixes</li>
+						</ul>
+					</article>
+
+					<article class="entry" role="listitem">
+						<time datetime="2025-09-05" class="entry-time">Sep 5, 2025</time>
+						<h3 class="entry-title">v1.1.0 — Feature add</h3>
+						<p class="entry-summary">Introduced entry summaries and details layout.</p>
+						<ul class="entry-details">
+							<li>Summaries for quick reading</li>
+							<li>Detail bullet list for important changes</li>
+						</ul>
+					</article>
+
+					<article class="entry" role="listitem">
+						<time datetime="2025-07-10" class="entry-time">Jul 10, 2025</time>
+						<h3 class="entry-title">v1.0.0 — Initial release</h3>
+						<p class="entry-summary">First public release of the changelog component.</p>
+						<ul class="entry-details">
+							<li>Initial timeline structure</li>
+							<li>Accessible HTML and mobile-first design</li>
+						</ul>
+					</article>
+				</div>
+
+				<footer class="changelog-footer">
+					<small>Tip: Resize the window to see how the layout adapts.</small>
+				</footer>
+			</section>
+		</main>
+	</body>
+</html>
